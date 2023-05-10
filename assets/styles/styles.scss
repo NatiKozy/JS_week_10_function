@@ -1,0 +1,12 @@
+$button-color:black;
+
+#first_image{
+    width: 500px;
+}
+
+.button{
+    background-color: $button-color;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+}
