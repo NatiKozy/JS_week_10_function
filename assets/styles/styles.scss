@@ -1,12 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 $button-color:black;
 
+.gallery{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+}
+
 #first_image{
-    width: 500px;
+    width: 70%;
+    align-self: center;
 }
 
 .button{
     background-color: $button-color;
-    width: 100px;
-    height: 50px;
+    width: 9em;
+    height: 3em;
     color: #fff;
+    margin-top: 3%;
+}
+
+.buttons_container{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    height: 100%;
 }
